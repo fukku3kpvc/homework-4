@@ -1,0 +1,14 @@
+<h1>New Post:</h1>
+<%= simple_form_for @expedition do |f| %>
+  <p>
+    Title: <br>
+    <%= f.input_field :title %>
+  </p>
+  <p>
+    Description: <br>
+    <%= f.input_field :description %>
+  </p>
+  <p>
+    <%= f.button :submit %>
+  </p>
+<% end %>
